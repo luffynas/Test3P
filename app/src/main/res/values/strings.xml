@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test3P</string>
+    <string name="text_system_login">System Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="err_msg_email_required">Email sangat di butuhkan</string>
+    <string name="err_msg_password_required">Password sangat di butuhkan</string>
+    <string name="err_msg_email_format">Format email salah</string>
+    <string name="err_msg_password_min_required">Setidaknya password harus 8 karakter</string>
+</resources>
