@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.luffycode.test3p">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,9 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".app.SignActivity" />
-        <activity android:name=".app.RegisterActivity" />
-        <activity android:name=".app.MainActivity"></activity>
+        <activity
+            android:name=".app.SignActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".app.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".app.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".app.GroupMembersActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

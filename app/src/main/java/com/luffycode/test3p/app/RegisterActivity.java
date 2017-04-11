@@ -1,11 +1,11 @@
 package com.luffycode.test3p.app;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.luffycode.test3p.R;
+import com.luffycode.test3p.Test3PCompatActivity;
 
-public class RegisterActivity extends AppCompatActivity {
+public class RegisterActivity extends Test3PCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
