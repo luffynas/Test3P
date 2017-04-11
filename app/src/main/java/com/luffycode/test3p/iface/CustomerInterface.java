@@ -46,7 +46,6 @@ public interface CustomerInterface {
             @Field("email") String email,
             @Field("password") String password);
 
-    @FormUrlEncoded
     @POST("profile.php")
     Call<Profile> profile(
             @Field("id") String id,
@@ -61,8 +60,8 @@ public interface CustomerInterface {
     @FormUrlEncoded
     @POST("group_members.php")
     Call<GroupMembers> groups(
-        @Field("id") String id,
-        @Field("company_name") String company_name
+            @Field("id") String id,
+            @Field("company_name") String company_name
     );
 
     @FormUrlEncoded
