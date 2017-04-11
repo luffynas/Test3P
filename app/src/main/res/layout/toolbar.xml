@@ -6,5 +6,5 @@
     android:layout_height="wrap_content"
     android:minHeight="?attr/actionBarSize"
     android:background="?attr/colorPrimary"
-    local:theme="@style/AppTheme"
+    local:theme="@style/AppTheme.NoActionBar"
     local:popupTheme="@style/ThemeOverlay.AppCompat.Light" />

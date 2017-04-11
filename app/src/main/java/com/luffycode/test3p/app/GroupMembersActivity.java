@@ -40,7 +40,7 @@ public class GroupMembersActivity extends Test3PCompatActivity {
 
         Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
         if (mToolbar != null) {
-            mToolbar.setTitle(getString(R.string.dashboard));
+            mToolbar.setTitle(getString(R.string.list_member));
             setSupportActionBar(mToolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
