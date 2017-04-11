@@ -29,4 +29,14 @@
     <string name="profile">Profile</string>
     <string name="group_members">Daftar anggota</string>
     <string name="dashboard">Dashboard</string>
+    <string name="err_msg_name_not_empty">Nama Lengkap wajib diisi</string>
+    <string name="err_msg_address_not_empty">Alamat wajib diisikan</string>
+    <string name="err_msg_city_not_empty">Kota wajib diisikan</string>
+    <string name="err_msg_phone_not_empty">Nomor Telpon wajib diisikan</string>
+    <string name="err_msg_company_name_not_empty">Nama Perusahaan wajib diisikan</string>
+    <string name="err_msg_password_not_same_min_required">Password tidak sama</string>
+    <string name="err_msg_company_address_not_empty">Alamat tidak boleh kosong</string>
+    <string name="err_msg_company_phone_not_empty">Nomor telepon wajib diisi</string>
+    <string name="err_msg_company_since_not_empty">Tahun berdiri wajib diisi</string>
+    <string name="err_msg_company_city_not_empty">Kota perusahaan wajib diisi</string>
 </resources>

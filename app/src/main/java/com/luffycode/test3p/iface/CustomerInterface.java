@@ -20,6 +20,7 @@ public interface CustomerInterface {
             @Field("full_name") String app,
             @Field("email") String name,
             @Field("address") String email,
+            @Field("city") String city,
             @Field("phone") String phone,
             @Field("password") String password,
             @Field("company_name") String company_name,

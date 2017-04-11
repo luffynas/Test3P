@@ -14,7 +14,7 @@ import android.view.WindowManager;
  */
 
 public class Utils {
-    public static final String URL = "http://192.168.43.74/test/";
+    public static final String URL = "http://192.168.0.35/test/";
     public static final String PREF = "pref";
     public static final int STATUS_OK = 200;
 

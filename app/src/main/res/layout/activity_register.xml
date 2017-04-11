@@ -190,7 +190,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical">
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/input_company_city"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
